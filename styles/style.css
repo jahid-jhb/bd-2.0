@@ -258,3 +258,81 @@ main>#pob2>.pob2-card{
 }
 
 /* donate area styles */
+#donate{
+    margin-top: 80px;
+}
+#donate>h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+#donate>p{
+    text-align: center;
+    margin-top: 24px;
+}
+#donate>.amount{
+    margin: 32px 104.5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+#donate>.amount>div{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#donate>.amount>div:nth-child(2){
+    background: #C6E4D6;
+}
+#donate>.block-input,.block-button{
+    text-align: center;
+    margin-top: 32px;
+}
+#donate>.block-input>input{
+    padding: 20px;
+    width: 64.5%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+/* subscribe section styles */
+
+#subscribe{
+    margin-top: 80px;
+    padding: 80px 100px;
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+#subscribe>h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#subscribe>.sub{
+    margin: 24px 0px;
+    display: flex;
+}
+#subscribe>.sub>.text-field{
+    width: 100%;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+}
+#subscribe>.sub>.btn-sub{
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+/* footer area style */
