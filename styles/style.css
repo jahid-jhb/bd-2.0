@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+body{
+    background: #f2f4f3;
+}
+
 /* shared styles */
 
 .shared-btn{
@@ -19,6 +23,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    border: none;
     border-radius: 8px;
     background: rgb(0, 106, 80);
 }
@@ -29,7 +34,6 @@
     font-weight: 400;
     line-height: 24px;
 }
-
 /* header styles */
 
 header{
@@ -179,3 +183,78 @@ main>#pob2>.pob2-card{
 }
 
 /* styles quotation area */
+
+.quotation{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 32px;
+    padding: 48px 24px;
+}
+.quotation>div{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.quotation p:nth-child(1){
+    color: rgba(14, 14, 14, 0.8);
+}
+.quotation p:nth-child(2){
+    color: rgba(14, 14, 14, 0.6);
+}
+
+
+/* opinion area styles */
+/* #opinion{
+    margin-top: 80px;
+}
+#opinion>.op-box{
+    background-color: #fff;
+    margin: 24px 0px;
+    border-radius: 16px;
+}
+#opinion>.op-box div{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+} */
+
+/* Recent News Section Styles */
+
+#news{
+    margin-top: 80px;
+}
+#news>h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+#news>.news-box{
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+#news>.revers{
+    flex-direction: row-reverse;
+}
+#news>.news-box>div>h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+#news>.news-box>img{
+    border-radius: 24px;
+}
+#news>.news-box>div>button{
+    padding: 13px 26px;
+    margin-top: 32px;
+}
+
+/* donate area styles */
