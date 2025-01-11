@@ -23,9 +23,14 @@ body{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    border: none;
     border-radius: 8px;
-    background: rgb(0, 106, 80);
+    background: #006a50;
+    border: 0.2px solid #006a50;
+    cursor: pointer;
+}
+.shared-btn:hover{
+    color: #006a50;
+    background-color: #fff;
 }
 .normal-p-tag{
     margin-top: 12px;
@@ -57,13 +62,18 @@ header>#nav-bar>h2{
 }
 header>#nav-bar>button{
     padding: 0px 30px;
-    border: 1px solid rgb(0, 106, 80);
+    border: 1px solid #006a50;
     border-radius: 8px;
     color: rgb(0, 106, 80);
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
+    cursor: pointer;
+}
+header>#nav-bar>button:hover{
+    background-color: #006a50;
+    color: #fff;
 }
 
 /* hero area styles */
@@ -165,7 +175,6 @@ main>#pob2>.pob2-card{
 #tvof>.tvof-card button{
     margin-top: 24px;
     padding: 11px 20px;
-    color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -173,13 +182,28 @@ main>#pob2>.pob2-card{
     border-radius: 8px;
 }
 .tvof-card .btn1{
+    color: #FFFFFF;
     background-color: #5490F5;
 }
+.tvof-card .btn1:hover{
+    color: #5490F5;
+    background-color: #fff;
+}
 .tvof-card .btn2{
+    color: #FFFFFF;
     background-color: #09A15C;
 }
+.tvof-card .btn2:hover{
+    color: #09A15C;
+    background-color: #fff;
+}
 .tvof-card .btn3{
+    color: #FFFFFF;
     background-color: #FFC239;
+}
+.tvof-card .btn3:hover{
+    color: #FFC239;
+    background-color: #fff;
 }
 
 /* styles quotation area */
@@ -203,21 +227,6 @@ main>#pob2>.pob2-card{
     color: rgba(14, 14, 14, 0.6);
 }
 
-
-/* opinion area styles */
-/* #opinion{
-    margin-top: 80px;
-}
-#opinion>.op-box{
-    background-color: #fff;
-    margin: 24px 0px;
-    border-radius: 16px;
-}
-#opinion>.op-box div{
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
-} */
 
 /* Recent News Section Styles */
 
@@ -287,6 +296,11 @@ main>#pob2>.pob2-card{
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+    cursor: pointer;
+}
+#donate>.amount>div:hover{
+    background: #C6E4D6;
+    color: rgba(14, 14, 14, 0.8);
 }
 #donate>.amount>div:nth-child(2){
     background: #C6E4D6;
