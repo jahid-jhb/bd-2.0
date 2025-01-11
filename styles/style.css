@@ -1,0 +1,121 @@
+/* font family */
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared styles */
+
+.shared-btn{
+    padding: 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+/* header styles */
+
+header{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* navbar styles */
+
+header>#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+header>#nav-bar>h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+header>#nav-bar>button{
+    padding: 0px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+/* hero area styles */
+#hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+#hero>div{
+    margin: auto 0px;
+}
+#hero>div>p{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+#hero>div>h1{
+    margin-top: 16px;
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+#hero>div>button{
+    margin-top: 24px;
+}
+
+/* main section styles */
+
+main{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+main>#pob2{
+    margin-top: 80px;
+}
+main>#pob2>.pob2-card{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+#pob2>.pob2-card>div{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+#pob2>.pob2-card>div>h3{
+    margin-top: 25px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+#pob2>.pob2-card>div>p{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
