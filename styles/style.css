@@ -336,3 +336,25 @@ main>#pob2>.pob2-card{
 
 
 /* footer area style */
+footer{
+    margin-top: 80px;
+    padding: 50px 0px;
+    background: #FFFFFF;
+    text-align: center;
+}
+footer>h2{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 31.5px;
+}
+footer>hr{
+    margin: 0% 15%;
+}
+footer>div{
+    margin-top: 31.5px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
